@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Farhan Rahman</title>
+		<link a href="../../../style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	</head>
+	
+	<body>
+		<ul id="header-ul">
+			<li id="header-name">
+				Farhan Rahman
+			</li>
+			
+			<li>
+				<a class="nav" href="../../../index.html">Home</a>
+			</li>
+			<li>
+				<a class="nav" href="../projects.html">Projects</a>
+			</li>
+			<li>
+				<a class="nav" href="../../about.html">About</a>
+			</li>
+			<li>
+				<a class="nav" href="../../contact.html">Contact</a>
+			</li>
+		</ul>
+		
+		<h3 class="common-heading" id="projects-heading">
+			TextWizard 1.1
+		</h3>
+		
+		<div class="common-pic">
+			<img src="../../../images/textwizard-icon.gif">
+		</div>
+		
+		
+		<div id="projects-h1">
+			<a id="github-link" href="https://www.github.com/farhanMRahman">github.com/farhanMRahman</a><br><br>
+			This is a simple text editor and word analyzer. I've implemented it using Java and Swing library.<br>
+			<ul class="projects-ul">
+				<li>Two panels in the frame; one for the editor and one for the analyzer</li><br>
+				<li>Used BorderLayout for the frame and GridBagLayout for the analyzar panel</li><br>
+				<li>Used the Nimbus Look and Feel to draw the user interface (UI)</li><br>
+				<li>Editor panel lets the user open, edit and save any text file</li><br>
+				
+				<li>Analyzer panel has some word analyzing features, such as:</li><br><br>
+				<ul class="projects-ul">
+					<li>Total word count</li><br>
+					<li>Word length percentages (e.g. Percentage of 1-letter words, 2-letter-words,...)</li><br>
+					<li>Average length of words</li><br>
+					<li>Number of occurences of a specific word in the file</li><br>
+				</ul><br>
+				
+				<li>Added a menubar which has functionality of opening, saving, exiting and making a new file</li><br>
+				<li>Added a checked box menu item to hide/show the analyzer panel temporarily</li><br>
+			</ul>
+		</div>
+		
+		<div id="projects-code">
+			<a id="projects-link" href="TextWizard 1.1.jar">Download TextWizard 1.1</a><br>
+			<p id="bottom-message">You must have JRE installed in your computer;<br>to run this, unzip the file and click on the TextWizard 1.1 icon</p><br><br>
+			
+			<p id="projects-title">Launcher</p>
+			<p id="bottom-message">main function</p>
+			<script src="https://gist.github.com/farhanMRahman/085036f95f982cf1a9d0ebed3f16119b.js"></script>
+			<br><br>
+			
+			<p id="projects-title">MainFrame</p>
+			<p id="bottom-message">main frame, holds the other panels, handles the events</p>
+			<script src="https://gist.github.com/farhanMRahman/cc7c3dff7dd7046a0f4285fa5b9f4ef7.js"></script>
+			<br><br>
+			
+			<p id="projects-title">TextPanel</p>
+			<p id="bottom-message">editor panel, holds the JTextArea, reads and writes/rewrites text file</p>
+			<script src="https://gist.github.com/farhanMRahman/0bee71c8d5e3d8ec2c97d12d42e11c46.js"></script>
+			<br><br>
+			
+			<p id="projects-title">WordPanel</p>
+			<p id="bottom-message">analyzer panel, holds the analyzing features using GridBagLayout<br>
+								   communicates with the JTextArea using ActionListener interface
+			</p>
+			<script src="https://gist.github.com/farhanMRahman/2db9bce420f5b4200963d6f473bd749f.js"></script>
+			<br><br>
+			
+			<p id="projects-title">WordExtensionFilter</p>
+			<p id="bottom-message">filters only the .txt files when prompted to open or save file<br>
+								   called by a JFileChooser from the MainFrame
+			</p>
+			<script src="https://gist.github.com/farhanMRahman/9698a7a8056804393e7632ab5e8d788f.js"></script>
+			<br><br>
+			
+			
+		</div>
+		
+		<div class="footer-about">© 2016 Farhan Rahman</footer>
+	</body>
+</html>
