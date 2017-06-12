@@ -1,0 +1,150 @@
+<html>
+	<head>
+		<title>Farhan Rahman</title>
+		<link a href="../../../style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link href="../../../images/title-icon.ico" rel="title icon">
+	</head>
+	
+	<body>
+		<ul id="header-ul">
+			<li id="header-name">
+				Farhan Rahman
+			</li>
+			
+			<li>
+				<a class="nav" href="../../../index.html">Home</a>
+			</li>
+			<li>
+				<a class="nav" href="../projects.html">Projects</a>
+			</li>
+			<li>
+				<a class="nav" href="../../about.html">About</a>
+			</li>
+			<li>
+				<a class="nav" href="../../contact.html">Contact</a>
+			</li>
+		</ul>
+		
+		<h3 class="common-heading" id="projects-heading">
+			Football Maniac
+		</h3>
+		
+		<div class="common-pic">
+			<img src="../../../images/football-maniac-icon.jpg">
+		</div>
+		
+		
+		<div id="projects-h1">
+			<a id="github-link" href="https://github.com/farhanMRahman/FootballManiac">github.com/farhanMRahman/FootballManiac</a><br><br>
+			This is a RESTful Android app which displays recent past results and future fixtures of prime European soccer teams. There is also option for customizing user's favorite team so that they can see only their favorite teams' data. It scrapes JSON data from an open web API.
+
+			<br><br> <br>
+
+			Football maniac is the perfect app for the absolute fanatics of football/soccer. It displays recent past results of the major European clubs from over 10 different European leagues and future fixtures of them. It allows the user to customize their favorite teams and only see their favorite teams' scores and fixtures. It also shows the current Leaderboards of La Liga, English Premiere League and Bundesliga. It has magnificent background sound service which surely improves user experience. Its user interface is basic and simple. Not having too many unnecessary features like traditional apps makes it more useful and user-friendly. <br><br>
+
+			This is the perfect app for those fans who didn't have time to watch the games or missed those somehow, but want to check on their favorite teams' recent results, future fixtures or current position on the point table. It's fast, simple and easy to use. <br><br>
+
+			Go football! Go football fans!<br><br>
+			<ul class="projects-ul">
+				<li id="li">Used ArrayAdapter to recycle views int ListView</li><br>
+				<li>Used a Service for the background music</li><br>
+				<li>Scraped JSON data showed them in appropriate places</li><br>
+				<li>Used HashMap to keep record of user's favorite teams with constant lookup runtime</li><br>
+				<li>Used SharedPreferrences to save user's preferrences of favorite teams</li><br>
+				<li>Handled special cases, for example, when there is no internet conncetion in the phone etc.</li><br>
+			</ul>
+		</div>
+		
+		<div id="projects-code-textwizard">
+			<a id="projects-link" href="https://play.google.com/store/apps/details?id=io.github.farhanmrahman.exampleapp&hl=en">Download Football Maniac</a><br>
+			<p id="bottom-message">Your phone's Android version must be 4.0.3 or up;<br>to run this, go to the Play Store link above and download it</p><br><br>
+			
+			<br><br>
+			<div class="common-pic">
+				<img src="../../../images/football-maniac-screenshot-1.jpg">
+			</div>
+			
+			<br><br>
+			<div class="common-pic">
+				<img src="../../../images/football-maniac-screenshot-2.jpg">
+			</div>
+			
+			<br><br>
+			<div class="common-pic">
+				<img src="../../../images/football-maniac-screenshot-3.png">
+			</div>
+
+			<br><br>
+			<div class="common-pic">
+				<img src="../../../images/football-maniac-screenshot-4.jpg">
+			</div>
+			
+
+			<br><br><br><br><br><br>
+
+
+			<p id="bottom-message">These are the main classes;<br>for the full code, go to the Github link above</p><br><br>
+			<br><br><br>			
+			
+			<p id="projects-title">MainActivity.java</p>
+			<p id="bottom-message">main activity</p>
+			<script src="https://gist.github.com/farhanMRahman/653dd0f481be158ed4cb2e7c32a86cf6.js"></script>
+			<br><br>
+			
+			<p id="projects-title">MyTeamsActivity</p>
+			<p id="bottom-message">past results and future fixtures of user's favorite teams activity</p>
+			<script src="https://gist.github.com/farhanMRahman/053c6884455f8dc59f4743cfab9e4276.js"></script>
+			<br><br>
+			
+			<p id="projects-title">Leaderboards</p>
+			<p id="bottom-message">current leaderboards of the three leagues</p>
+			<script src="https://gist.github.com/farhanMRahman/31c7494c463ce1c767f963124b8e48f2.js"></script>
+			<br><br>
+			
+			<p id="projects-title">MusicService</p>
+			<p id="bottom-message">a Service that handles the background music</p>
+			<script src="https://gist.github.com/farhanMRahman/250bb632c8eb326dbda98f3ca0c4af2a.js"></script>
+			<br><br>
+
+			<p id="projects-title">QueryUtils</p>
+			<p id="bottom-message">has all necessary methods for fetching data from the open Web API<br>
+									makes an HTTP request, fetches data as JSON format, returns them as List to different classes</p>
+			<script src="https://gist.github.com/farhanMRahman/b4038e29b1ce8c6de05d31407aad143f.js"></script>
+			<br><br>
+
+
+			<p id="projects-title">Team</p>
+			<p id="bottom-message">a generic Team class for making every team object which stores information about them</p>
+			<script src="https://gist.github.com/farhanMRahman/6dc759aa0783be53e69eb18c33ede985.js"></script>
+			<br><br>
+
+			<p id="projects-title">SelectMyTeams</p>
+			<p id="bottom-message">the activity that handles user's favorite teams using CheckBox and HashMap<br>
+									selecting and retrieving favorite team data runs in O(1) runtime</p>
+			<script src="https://gist.github.com/farhanMRahman/f39e57e951c9c1d9c3d271411bdb5a7e.js"></script>
+			<br><br>
+			
+			<p id="projects-title">PastResultsActivity</p>
+			<p id="bottom-message">shows the scores of past 30 days in major leagues
+			</p>
+			<script src="https://gist.github.com/farhanMRahman/ebd6610994dd5670398c456f44c572b3.js"></script>
+			<br><br>
+			
+			<p id="projects-title">PastLoader</p>
+			<p id="bottom-message">an AsynTaskLoader that communicates with QueryUtils and loads data in the background</p>
+			<script src="https://gist.github.com/farhanMRahman/e35cd7d5a33ff20d8dbe5e08c3513e75.js"></script>
+			<br><br>
+			
+			<p id="projects-title">PastResultAdapter</p>
+			<p id="bottom-message">an ArrayAdapter that recycles data for efficiency and shows them in ListView</p>
+			<script src="https://gist.github.com/farhanMRahman/e570303bbf193b6212e9e1b3200aa900.js"></script>
+			<br><br>
+			
+			
+			
+		</div>
+		
+		<div class="footer-about">© 2016 Farhan Rahman</footer>
+	</body>
+</html>
